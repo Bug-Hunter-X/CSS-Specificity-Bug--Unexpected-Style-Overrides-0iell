@@ -1,0 +1,14 @@
+/* bugSolution.css */
+#myElement {
+  background-color: lightblue; /* More specific selector overrides .myClass */
+}
+
+.myClass {
+  background-color: lightcoral; /* This is less specific, so overridden */
+}
+
+/* Correct use of !important (generally avoid unless absolutely necessary): */
+.myClass {
+  background-color: lightgreen !important; /* Force override */
+}
+/*Or rearrange to make sure lightgreen comes after #myElement*/
