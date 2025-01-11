@@ -1,0 +1,1 @@
+The CSS code has a specificity issue where a more specific selector overrides a less specific one unexpectedly.  This often happens with ID selectors, class selectors, and inline styles.  The code might also be missing or having incorrect use of the !important flag.
